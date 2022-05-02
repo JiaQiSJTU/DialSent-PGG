@@ -24,7 +24,7 @@ bash posttrain_samsum_exact.sh
 
 * Modify MODEL_DIR with the path of post-trained checkpoints of scripts under ./experiment_scripts and run the fine-tuning processes.
 
-``````
+```
 bash finetune_dialsumm.sh
 bash finetune_samsum.sh
 ```
